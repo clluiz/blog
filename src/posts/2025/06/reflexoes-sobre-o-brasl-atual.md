@@ -1,6 +1,6 @@
 ---
 title: Reflexões sobre a atual situação do Brasil
-date: 2025-06-12
+date: 2020-08-26
 tags:
 - reflexões
 - desabafo

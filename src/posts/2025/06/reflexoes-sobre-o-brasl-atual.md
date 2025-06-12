@@ -9,7 +9,7 @@ Uma reflexão pessoal sobre o cenário político, econômico e institucional do 
 <!-- excerpt -->
 
 A duas semanas atrás eu fiz uma promessa de não postar sobre política nas minhas redes sociais.
-Fiz até uma limpa no meus X apagando todas as postagens com teor político/ideológico.
+Fiz até uma limpa no meu X apagando todas as postagens com teor político/ideológico.
 
 Eu não abandonei meus valores, apenas cheguei à conclusão de que não vale a pena brigar
 por causa deles em redes sociais, ninguém muda de opinião dessa forma. 

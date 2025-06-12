@@ -5,7 +5,7 @@ tags:
 - reflexões
 - desabafo
 ---
-Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025. O autor expressa preocupação com a escalada da violência, o autoritarismo crescente e a apatia da população, questionando seu futuro no país diante de tantos desafios
+Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025.
 <!-- excerpt -->
 
 A duas semanas atrás eu fiz uma promessa de não postar sobre política nas minhas redes sociais.

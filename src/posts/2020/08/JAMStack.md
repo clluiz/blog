@@ -1,6 +1,6 @@
 ---
 title: Apresentando o JAMstack e Seus Impactos para os Negócios
-date: 202-08-26
+date: 2020-08-26
 tags:
 - jamstack
 - web development

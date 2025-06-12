@@ -8,30 +8,27 @@ tags:
 Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025.
 <!-- excerpt -->
 
-A duas semanas atrás eu fiz uma promessa de não postar sobre política nas minhas redes sociais.
-Fiz até uma limpa no meu X apagando todas as postagens com teor político/ideológico.
+Há duas semanas, prometi a mim mesmo que não postaria mais sobre política nas redes sociais.  
+Fiz até uma limpa no meu X, apagando todas as publicações com teor político ou ideológico.
 
-Eu não abandonei meus valores, apenas cheguei à conclusão de que não vale a pena brigar
-por causa deles em redes sociais, ninguém muda de opinião dessa forma. 
+Não abandonei meus valores — apenas cheguei à conclusão de que não vale a pena brigar por eles nas redes. Ninguém muda de opinião dessa forma.
 
-No entanto, a situação atual do Brasil é alarmante tanto do ponto de vista econômico, quanto institucional.
+No entanto, a situação atual do Brasil é alarmante, tanto do ponto de vista econômico quanto institucional.
 
-Estou escrevendo esse artigo no dia 12/06/2025 e ontem, um juiz da suprema corte assumiu
-ser admirador do regime chinês e o governo gasta como nunca e aumenta impostos de maneira brutal.
+Escrevo este artigo em 12/06/2025. Ontem, um juiz da Suprema Corte declarou abertamente ser admirador do regime chinês.
 
-A violência só aumenta e facções criminosas já controlam regiões inteiras de algumas da cidades mais importantes do país. A cultura da bandidagem se alastra
-entre nossos jovens.
+Ao mesmo tempo, o governo gasta como nunca, aumenta impostos de forma brutal, destrói o valor da moeda e compromete nosso futuro — e o dos nossos filhos.
 
-Um escândalo de roubo de aposentados está sendo enterrado por que provavelmente envolve praticamente todos os principais bancos do país.
+A violência só cresce. Facções criminosas já controlam regiões inteiras de algumas das cidades mais importantes do país. A cultura da bandidagem se espalha entre nossos jovens.
 
-O povo está apático, fraco e com medo, e com razão. Mais da metade da população tem dificuldades para cobrir as despesas básicas, um tanto ignora completamente e uma boa parte ainda apóia todos esses descalabros.
+Um escândalo de roubo de aposentados está sendo abafado, provavelmente porque envolve alguns dos principais bancos do país.
 
-A muito tempo atrás eu já desisti de ir embora do Brasil. Acredito que meu lugar é aqui apesar
-dos problemas que sempre tivemos. No entanto, a escalada do autoritarismo de todas as instituições, o aumento da violência que conta com a complacência da justiça me aliado ao fato de agora eu ter uma filha pequena me fazem pensar em fugir pra longe daqui.
+O povo está apático, fraco e com medo — e com razão. Mais da metade da população enfrenta dificuldades para cobrir despesas básicas. Parte ignora completamente a realidade, enquanto muitos ainda apoiam todos esses descalabros.
 
-Esse não é um texto para apontar dedos, *TODOS* os políticos que passaram por cargos relevantes
-nos últimos 30 anos são responsáveis pela situação crítica em que nos encontramos.
+Há muito tempo, desisti da ideia de sair do Brasil. Sempre acreditei que meu lugar era aqui, apesar dos problemas de sempre. No entanto, a escalada do autoritarismo nas instituições, o aumento da violência — com a complacência da Justiça — e, agora, o fato de eu ter uma filha pequena, me fazem pensar seriamente em fugir para longe daqui.
 
-Que Deus tenha piedade dessa nação, pois apenas uma intervenção divina pode nos salvar.
+Este não é um texto para apontar dedos. *Todos* os políticos que ocuparam cargos relevantes nos últimos 30 anos são responsáveis pela situação crítica em que nos encontramos.
+
+Que Deus tenha piedade desta nação. Neste momento, apenas uma intervenção divina pode nos salvar.
 
 Só nos resta rezar.

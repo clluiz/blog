@@ -1,5 +1,5 @@
 ---
-title: Entendendo e tratando memory leaks no NodeJS
+title: Entendendo e tratando memory leaks no Node.js
 date: 2025-06-27
 tags:
 - nodejs

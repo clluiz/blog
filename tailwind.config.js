@@ -1,7 +1,10 @@
 module.exports = {
+  content: ["./src/**/*.{html,js,md,liquid}"],
   darkMode: 'class',
-  content: ['./src/**/*.md', './src/**/*.html', './src/_includes/**/*.liquid'],
+  theme: {
+    extend: {},
+  },
   plugins: [
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
   ],
 }

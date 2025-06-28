@@ -22,7 +22,7 @@ pagination:
     <div class="flex-1 pr-4">
       {% for tag in post.data.tags %}
         {% if tag != "posts" %}
-          <a href="/tags/{{ tag }}" class="">
+          <a class="no-underline" href="/tags/{{ tag }}" class="">
             <div class="post-tag">{{ tag }}</div>
           </a>
         {% endif %}

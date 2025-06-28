@@ -113,7 +113,7 @@ O Node.js já oferece algumas ferramentas para investigar e diagnosticar *memory
 
 ## Conclusão
 
-Embora o *garbage collector* do Node.js seja uma ferramenta muito útil, ele não isenta o desenvolvedor da responsabilidade de gerenciar a memória de forma consciente. A prevenção de memory leaks raramente exige soluções complexas; em vez disso, ela nasce de boas práticas de tais como remover listeners, limpar timers e fechar conexões.
+Embora o *garbage collector* do Javascript seja uma ferramenta muito útil, ele não isenta o desenvolvedor da responsabilidade de gerenciar a memória de forma consciente. A prevenção de memory leaks raramente exige soluções complexas; em vez disso, ela nasce de boas práticas de tais como remover listeners, limpar timers e fechar conexões.
 
 A regra fundamental é simples: todo recurso que é aberto ou iniciado deve ser explicitamente fechado ou finalizado. Ao adotar essas boas práticas e utilizar as ferramentas de diagnóstico disponíveis, você não apenas corrige problemas, mas eleva a qualidade de suas aplicações, tornando-as mais estáveis, seguras e eficientes.
 

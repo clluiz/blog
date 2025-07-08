@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Piti.co",
+    "description": "Encurtador de url. Sempre tive curiosidade sobre como encurtadores são feitos então resolvi criar o meu. Pretendo estdar formas de escalar esse projeto para mais de 1 milhão de requisições diárias",
+    "tech_stack": ["Fastify", "Postgresql", "Redis", "Knex"],
+    "github_url": "https://github.com/user/my-awesome-project",
+    "project_url": "https://my-awesome-project.com"
+  },
+  {
+    "title": "Another Cool Thing",
+    "description": "This project was built to explore the possibilities of WebSockets. It's a real-time chat application.",
+    "tech_stack": ["TypeScript", "Vue.js", "Express", "Socket.io"],
+    "github_url": "https://github.com/user/another-cool-thing"
+  }
+]

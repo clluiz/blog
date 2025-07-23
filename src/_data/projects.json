@@ -6,9 +6,9 @@
     "github_url": "https://github.com/clluiz/pitico"
   },
   {
-    "title": "Another Cool Thing",
-    "description": "This project was built to explore the possibilities of WebSockets. It's a real-time chat application.",
-    "tech_stack": ["TypeScript", "Vue.js", "Express", "Socket.io"],
-    "github_url": "https://github.com/user/another-cool-thing"
+    "title": "Vero analytics",
+    "description": "Eu criei esse projeto por que acho muito difícil usar o Google Analytics. Quero um dashboard fácil de usar",
+    "tech_stack": ["TypeScript", "Fastify", "Prisma", "Postgres", "Docker", "React"],
+    "github_url": "https://github.com/clluiz/vero-analytics-api"
   }
 ]

@@ -8,14 +8,31 @@ tags:
 - memory leak
 - javascript
 - memória
-schema:
-  type: BlogPosting
-  url: "https://cleitonluizdev.com.br/posts/2025/06/memory-leak-no-nodejs/"
-  name: "Entendendo e tratando memory leaks no Node.js"
+type: post
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: en-US
+  url: https://cleitonluizdev.com.br/posts/2025/06/memory-leak-no-nodejs/
+  title: "Entendendo e tratando memory leaks no Node.js"
   description: "Um pequeno guia sobre memory leaks em Node.js: entenda o que são, como evitar, detectar e quais ferramentas utilizar."
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
   author:
-    name: "Cleiton Luiz"
-    url: "https://cleitonluizdev.com.br/about/"
+    name: First Last
+  published: 2020-07-03T06:43:21.123Z
+  modified: 2020-07-03T08:35:46.289Z
+  section: Example
+  tags:
+    - tag1
+    - tag2
 ---
 Um pequeno guia sobre memory leaks em Node.js: entenda o que são, como evitar, detectar e quais ferramentas utilizar.
 <!-- excerpt -->

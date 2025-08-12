@@ -6,6 +6,31 @@ post_excerpt: "Descubra o que é JAMstack e como essa arquitetura moderna está 
 tags:
 - jamstack
 - web development
+type: post
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: en-US
+  url: https://cleitonluizdev.com.br/posts/2020/08/JAMStack/
+  title: "Apresentando o JAMstack e Seus Impactos para os Negócios"
+  description: "Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web."
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
+  author:
+    name: First Last
+  published: 2020-07-03T06:43:21.123Z
+  modified: 2020-07-03T08:35:46.289Z
+  section: Example
+  tags:
+    - tag1
+    - tag2
 schema:
   type: BlogPosting
   url: "https://cleitonluizdev.com.br/posts/2020/08/JAMStack/"

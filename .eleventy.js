@@ -1,7 +1,7 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
-const schema = require('@quasibit/eleventy-plugin-schema');
+const schema = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = function(eleventyConfig) {
   // Plugins

@@ -6,14 +6,31 @@ post_excerpt: "Um pensamento curto do dia sobre fintechs e arquitetura de softwa
 tags:
 - arquitetura de software
 - fintechs
-schema:
-  type: BlogPosting
-  url: "https://cleitonluizdev.com.br/posts/2025/07/fintechs-santo-graal-da-arquitetura-de-software/"
-  name: "Seriam as fintechs o 'Santo Graal' da arquitetura de software?"
+type: post
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: en-US
+  url: https://cleitonluizdev.com.br/posts/2025/07/fintechs-santo-graal-da-arquitetura-de-software/
+  title: "Seriam as fintechs o 'Santo Graal' da arquitetura de software?"
   description: "Um pensamento curto do dia sobre fintechs e arquitetura de software"
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
   author:
-    name: "Cleiton Luiz"
-    url: "https://cleitonluizdev.com.br/about/"
+    name: First Last
+  published: 2020-07-03T06:43:21.123Z
+  modified: 2020-07-03T08:35:46.289Z
+  section: Example
+  tags:
+    - tag1
+    - tag2
 ---
 Um pensamento curto do dia sobre fintechs e arquitetura de software
 <!-- excerpt -->

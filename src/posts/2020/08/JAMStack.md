@@ -24,7 +24,8 @@ meta:
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    name: First Last
+    url: https://cleitonluizdev.com.br/about/
+    name: Cleiton Teodoro
   published: 2020-07-03T06:43:21.123Z
   modified: 2020-07-03T08:35:46.289Z
   section: Example

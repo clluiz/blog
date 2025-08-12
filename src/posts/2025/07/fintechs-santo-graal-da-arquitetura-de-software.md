@@ -28,10 +28,10 @@ meta:
     name: Cleiton Teodoro
   published: 2020-07-03T06:43:21.123Z
   modified: 2020-07-03T08:35:46.289Z
-  section: Example
+  section: Blog
   tags:
-    - tag1
-    - tag2
+    - arquitetura de software
+    - fintechs
 ---
 Um pensamento curto do dia sobre fintechs e arquitetura de software
 <!-- excerpt -->

@@ -1,6 +1,12 @@
 ---
 layout: default
 title: Sobre
+description: "Após mais de uma década construindo software robusto e escalável como engenheiro sênior, agora ajudo empresas a transformar ideias em produtos digitais de alta performance."
+schema:
+  type: WebPage
+  url: "https://cleitonluizdev.com.br/about/"
+  name: "Sobre"
+  description: "Após mais de uma década construindo software robusto e escalável como engenheiro sênior, agora ajudo empresas a transformar ideias em produtos digitais de alta performance."
 ---
 
 Após mais de uma década construindo software robusto e escalável como engenheiro sênior, agora ajudo empresas a transformar ideias em produtos digitais de alta performance. Sou especialista em desenvolvimento fullstack (Node.js, React, TypeScript, Hasura, PostgreSQL) e trabalho em estreita colaboração com fundadores, equipes de produto e gerentes para projetar e construir soluções que sejam rápidas, seguras e fáceis de usar.

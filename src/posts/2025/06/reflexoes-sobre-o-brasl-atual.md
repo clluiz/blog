@@ -1,9 +1,19 @@
 ---
 title: Reflexões sobre a atual situação do Brasil
 date: 2025-06-12
+description: "Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025."
+post_excerpt: "Uma reflexão pessoal sobre o cenário pol��tico, econômico e institucional do Brasil em 2025."
 tags:
 - reflexões
 - desabafo
+schema:
+  type: BlogPosting
+  url: "https://cleitonluizdev.com.br/posts/2025/06/reflexoes-sobre-o-brasl-atual/"
+  name: "Reflexões sobre a atual situação do Brasil"
+  description: "Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025."
+  author:
+    name: "Cleiton Luiz"
+    url: "https://cleitonluizdev.com.br/about/"
 ---
 Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025.
 <!-- excerpt -->

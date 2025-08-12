@@ -1,9 +1,19 @@
 ---
 title: Apresentando o JAMstack e Seus Impactos para os Negócios
 date: 2020-08-26
+description: "Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web."
+post_excerpt: "Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web."
 tags:
 - jamstack
 - web development
+schema:
+  type: BlogPosting
+  url: "https://cleitonluizdev.com.br/posts/2020/08/JAMStack/"
+  name: "Apresentando o JAMstack e Seus Impactos para os Negócios"
+  description: "Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web."
+  author:
+    name: "Cleiton Luiz"
+    url: "https://cleitonluizdev.com.br/about/"
 ---
 Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web. Neste artigo, explicamos os princípios do JAMstack — Javascript, APIs e Markup — e mostramos como ele oferece mais segurança, desempenho, escalabilidade e redução de custos para negócios digitais. Uma leitura essencial para desenvolvedores e empreendedores que querem entender o futuro da web.
 <!-- excerpt -->

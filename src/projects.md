@@ -1,6 +1,10 @@
 ---
 layout: default.liquid
 title: Projetos
+description: "Lista de projetos pessoais desenvolvidos por Cleiton Luiz."
+schema:
+  type: WebPage
+  name: "Projetos"
 ---
 
 # Projetos pessoais

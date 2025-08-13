@@ -71,6 +71,9 @@
 
     gtag('config', 'G-QXJ361YH86');
   </script> 
-  {% jsonLdScript meta, type, tags %}
+  {% if meta %}
+    {% jsonLdScript meta, type, tags %}
+  {% endif %}
+  
   </body>
 </html>

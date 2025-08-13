@@ -1,13 +1,28 @@
 ---
 layout: default.liquid
-title: Projetos
+title: Projetos pessoais
 description: "Lista de projetos pessoais desenvolvidos por Cleiton Luiz."
-schema:
-  type: WebPage
-  name: "Projetos"
+type: WebPage
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: en-US
+  url: https://cleitonluizdev.com.br/projects
+  title: "Projetos pessoais"
+  description: "Projetos pessoais"
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
+  author:
+    url: https://cleitonluizdev.com.br/projects/
+    name: Cleiton Teodoro
 ---
-
-# Projetos pessoais
 
 {% for project in projects %}
   

@@ -15,7 +15,7 @@ meta:
       height: 630
     language: en-US
   url: https://cleitonluizdev.com.br/about
-  title: "4040"
+  title: "Sobre"
   description: "Sobre mim"
   image:
     src: https://cleitonluizdev.com.br/images/page.png

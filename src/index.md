@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sobre
+title: Bem vindos!
 description: "Após mais de uma década construindo software robusto e escalável como engenheiro sênior, agora ajudo empresas a transformar ideias em produtos digitais de alta performance."
 type: WebPage
 meta:
@@ -14,14 +14,15 @@ meta:
       width: 1200
       height: 630
     language: en-US
-  url: https://cleitonluizdev.com.br/about
+  url: https://cleitonluizdev.com.br
   title: "Sobre"
   description: "Sobre mim"
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    url: https://cleitonluizdev.com.br/about/
+    url: https://cleitonluizdev.com.br/
     name: Cleiton Teodoro
+permalink: /
 ---
 
 Após mais de uma década construindo software robusto e escalável como engenheiro sênior, agora ajudo empresas a transformar ideias em produtos digitais de alta performance. Sou especialista em desenvolvimento fullstack (Node.js, React, TypeScript, Hasura, PostgreSQL) e trabalho em estreita colaboração com fundadores, equipes de produto e gerentes para projetar e construir soluções que sejam rápidas, seguras e fáceis de usar.
@@ -43,6 +44,9 @@ Como posso te ajudar:
 * Automação de ferramentas internas;
 * Refatoração ou reescrita de sistemas legados;
 * Conversão de planilhas para sistemas mais fáceis de usar e de integrar com outras ferramentas;
+* Sistemas de gestão empresarial;
+* Criação de aplicações com inteligência articial;
 
 Vamos conversar sobre como posso apoiar as metas do seu produto.
 
+Acesse meu [linkedin](https://www.linkedin.com/in/cleiton-teodoro/) para saber mais sobre minha trajetória profissional.

@@ -42,11 +42,11 @@ Crio plataformas SaaS, dashboards e sistemas internos para empresas que buscam c
 
 ### Da Planilha à Plataforma: Resultados Comprovados
 
-Com mais de uma década de experiência como engenheiro de software sênior[cite: 5], meu foco é entregar tecnologia que gera resultados de negócio.
+Com mais de uma década de experiência como engenheiro de software sênior, meu foco é entregar tecnologia que gera resultados de negócio.
 
-* **+40 Empresas Atendidas:** Transformei uma complexa planilha de previsão de vendas em uma plataforma SaaS de análise de dados, hoje utilizada por mais de 40 empresas no Brasil[cite: 21, 23].
-* **Arquitetura de Missão Crítica:** Fui consultor no projeto da arquitetura do Segird, o sistema de gestão de riscos e desastres do Rio Grande do Sul, construindo a solução do zero[cite: 27, 29].
-* **Inteligência para o Agronegócio:** Contribuí para o desenvolvimento de plataformas de rastreabilidade e inteligência territorial para uma das maiores empresas do agronegócio brasileiro[cite: 35, 40].
+* **+40 Empresas Atendidas:** Transformei uma complexa planilha de previsão de vendas em uma plataforma SaaS de análise de dados, hoje utilizada por mais de 40 empresas no Brasil
+* **Arquitetura de Missão Crítica:** Fui consultor no projeto da arquitetura do Segird, o sistema de gestão de riscos e desastres do Rio Grande do Sul, construindo a solução do zero.
+* **Inteligência para o Agronegócio:** Contribuí para o desenvolvimento de plataformas de rastreabilidade e inteligência territorial para uma das maiores empresas do agronegócio brasileiro.
 
 ### Soluções Completas de Desenvolvimento
 

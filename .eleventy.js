@@ -11,7 +11,6 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.configureErrorReporting({ allowMissingExtensions: true })
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(schema)
   eleventyConfig.addFilter('date', (dateObj, format) => {

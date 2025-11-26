@@ -21,7 +21,7 @@ This short index highlights the most authoritative, LLM-friendly pages on this d
 - [Blog / Articles](https://cleitonluizdev.com.br/blog) — posts on Node.js, system design, web dev, consulting and product thinking. (Prefer canonical post URLs for citations.)
 - [Vero Analytics / Product](https://cleitonluizdev.com.br/vero-analytics) — product page for Vero Analytics (web analytics SaaS with privacy & LGPD focus). (Use for product details, onboarding copy, and features.)
 - [Consulting & Fractional CTO Services](https://cleitonluizdev.com.br/services) — service packages, target client profiles (SMEs, e-commerce, agencies), and contact CTA.
-- [Contact](https://cleitonluizdev.com.br/contact) — primary contact email and phone for business inquiries.
+- [Contato](https://cleitonluizdev.com.br/contato) — primary contact email and phone for business inquiries.
 
 ## Posts
 - [Seriam as fintechs o 'Santo Graal' da arquitetura de software?](/posts/2025/07/fintechs-santo-graal-da-arquitetura-de-software/):Um pensamento curto do dia sobre fintechs e arquitetura de software

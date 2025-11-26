@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve --port=8086",
-    "build": "eleventy"
+    "build": "eleventy",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "eleventy --serve --port=8086"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
     "@quasibit/eleventy-plugin-schema": "^1.11.1",
     "@tailwindcss/postcss": "^4.1.17",
     "@tailwindcss/typography": "^0.5.19",
+    "eslint": "^9.39.1",
     "cssnano": "^7.1.2",
     "luxon": "^3.7.2",
     "postcss": "^8.5.6",

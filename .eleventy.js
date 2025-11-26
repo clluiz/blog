@@ -35,6 +35,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy('src/llms.txt')
+  eleventyConfig.addPassthroughCopy('src/robots.txt')
 
   eleventyConfig.on('eleventy.before', async () => {
     const tailwindInputPath = path.resolve('./src/assets/styles/index.css');

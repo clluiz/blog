@@ -137,4 +137,7 @@
 
     });
   </script>
+  {% if meta %}
+    {% jsonLdScript meta, type, tags %}
+  {% endif %}
 </html>

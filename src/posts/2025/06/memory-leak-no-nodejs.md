@@ -149,6 +149,6 @@ A regra fundamental é simples: todo recurso que é aberto ou iniciado deve ser 
 
 ## Referências
 
-1. https://nodejs.org/pt/learn/diagnostics/memory
-2. https://nodejs.org/pt/learn/diagnostics/memory/understanding-and-tuning-memory
-3. https://betterstack.com/community/guides/scaling-nodejs/high-performance-nodejs/nodejs-memory-leaks/
+1. [https://nodejs.org/pt/learn/diagnostics/memory](https://nodejs.org/pt/learn/diagnostics/memory)
+2. [https://nodejs.org/pt/learn/diagnostics/memory/understanding-and-tuning-memory](https://nodejs.org/pt/learn/diagnostics/memory/understanding-and-tuning-memory)
+3. [https://betterstack.com/community/guides/scaling-nodejs/high-performance-nodejs/nodejs-memory-leaks/](https://betterstack.com/community/guides/scaling-nodejs/high-performance-nodejs/nodejs-memory-leaks/)

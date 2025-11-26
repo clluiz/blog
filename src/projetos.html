@@ -15,14 +15,36 @@ meta:
       width: 1200
       height: 630
     language: en-US
-  url: https://cleitonluizdev.com.br/projects
+  url: https://cleitonluizdev.com.br/projetos/
   title: "Projetos pessoais"
   description: "Projetos pessoais"
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    url: https://cleitonluizdev.com.br/projects/
+    url: https://cleitonluizdev.com.br/sobre/
     name: Cleiton Teodoro
+schema:
+  '@context': https://schema.org
+  '@type': CollectionPage
+  mainEntityOfPage:
+    '@type': WebPage
+    '@id': "https://cleitonluizdev.com.br/projects"
+  headline: "Projetos de Desenvolvimento Web | Portfólio de Cleiton Luiz"
+  description: "Explore uma seleção de projetos de desenvolvimento web realizados por Cleiton Luiz. Veja exemplos práticos de aplicações web, sites e outras soluções digitais."
+  author:
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre/"
+  publisher:
+    '@type': Organization
+    name: "Site"
+    logo:
+      '@type': ImageObject
+      url: "https://cleitonluizdev.com.br/images/logo.png"
+  mainEntity:
+    '@type': ItemList
+    description: "Uma lista de projetos de desenvolvimento web e soluções digitais."
+    # Os itemListElement são gerados dinamicamente pelo Nunjucks no corpo da página.
 ---
 
   <section id="projetos" class="page-section py-20 flex flex-col items-center">

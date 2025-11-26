@@ -1,9 +1,10 @@
 node_modules/**
-node_modules/.pnpm/**
-**/.pnpm/**
+**/node_modules/.pnpm/**
+.pnpm/**
 pnpm-lock.yaml
 
 _site/**
+_/site/
 
 src/assets/images/**
 src/assets/fonts/**

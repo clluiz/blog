@@ -21,8 +21,24 @@ meta:
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    url: https://cleitonluizdev.com.br/
+    url: https://cleitonluizdev.com.br/sobre/
     name: Cleiton Teodoro
+schema:
+  '@context': https://schema.org
+  '@type': WebSite
+  url: "https://cleitonluizdev.com.br/"
+  name: "Cleiton Luiz - Desenvolvedor Web"
+  description: "Após mais de uma década construindo software robusto e escalável como engenheiro sênior, agora ajudo empresas a transformar ideias em produtos digitais de alta performance."
+  publisher:
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre/"
+  potentialAction:
+    '@type': SearchAction
+    target:
+      '@type': EntryPoint
+      urlTemplate: "https://cleitonluizdev.com.br/search?q={search_term_string}"
+    'query-input': "required name=search_term_string"
 ---
 <!--  -->
 
@@ -60,4 +76,3 @@ meta:
                 </div>
             </div>
         </section>
-

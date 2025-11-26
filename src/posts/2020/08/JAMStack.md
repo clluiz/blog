@@ -24,7 +24,7 @@ meta:
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    url: https://cleitonluizdev.com.br/about/
+    url: https://cleitonluizdev.com.br/sobre/
     name: Cleiton Teodoro
   published: 2020-07-03T06:43:21.123Z
   modified: 2020-07-03T08:35:46.289Z
@@ -33,13 +33,26 @@ meta:
     - jamstack
     - web development
 schema:
-  type: BlogPosting
-  url: "https://cleitonluizdev.com.br/posts/2020/08/JAMStack/"
-  name: "Apresentando o JAMstack e Seus Impactos para os Negócios"
+  '@context': https://schema.org
+  '@type': BlogPosting
+  mainEntityOfPage:
+    '@type': WebPage
+    '@id': "https://cleitonluizdev.com.br/posts/2020/08/JAMStack/"
+  headline: "Apresentando o JAMstack e Seus Impactos para os Negócios"
   description: "Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web."
+  image: "https://cleitonluizdev.com.br/images/page.png"
   author:
-    name: "Cleiton Luiz"
-    url: "https://cleitonluizdev.com.br/about/"
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre/"
+  publisher:
+    '@type': Organization
+    name: "Site"
+    logo:
+      '@type': ImageObject
+      url: "https://cleitonluizdev.com.br/images/logo.png"
+  datePublished: "2020-08-26"
+  dateModified: "2020-08-26"
 ---
 Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web. Neste artigo, explicamos os princípios do JAMstack — Javascript, APIs e Markup — e mostramos como ele oferece mais segurança, desempenho, escalabilidade e redução de custos para negócios digitais. Uma leitura essencial para desenvolvedores e empreendedores que querem entender o futuro da web.
 <!-- excerpt -->

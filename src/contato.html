@@ -19,8 +19,27 @@ meta:
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    url: https://cleitonluizdev.com.br/contato
+    url: https://cleitonluizdev.com.br/sobre/
     name: Cleiton Teodoro
+schema:
+  '@context': https://schema.org
+  '@type': ContactPage
+  mainEntityOfPage:
+    '@type': WebPage
+    '@id': "https://cleitonluizdev.com.br/contato"
+  headline: "Entre em Contato com Cleiton Luiz"
+  description: "Estou disponível para novos projetos, colaborações ou apenas um bate-papo sobre tecnologia. Utilize o formulário para enviar sua mensagem."
+  mainEntity:
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre/"
+    contactPoint:
+      '@type': ContactPoint
+      contactType: "project inquiry"
+      email: "seu-email@example.com" # Substitua pelo seu e-mail de contato
+      availableLanguage:
+        - "Portuguese"
+        - "English"
 ---
 
 

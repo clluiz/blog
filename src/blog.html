@@ -3,11 +3,38 @@ title: Blog sobre Desenvolvimento e Tecnologia | Cleiton Luiz
 layout: base.njk
 description: "Artigos e tutoriais sobre desenvolvimento web, tecnologia e carreira. Acompanhe as últimas postagens de Cleiton Luiz e aprofunde seus conhecimentos."
 target: blog
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: en-US
+  url: https://cleitonluizdev.com.br/projects
+  title: "Projetos pessoais"
+  description: "Projetos pessoais"
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
+  author:
+    url: https://cleitonluizdev.com.br/sobre/
+    name: Cleiton Teodoro
 schema:
-  type: WebSite
-  url: "https://cleitonluizdev.com.br/blog"
-  name: "Blog"
-  description: "Bem vindos ao meu blog"
+  '@context': https://schema.org
+  '@type': Blog
+  mainEntityOfPage:
+    '@type': WebPage
+    '@id': "https://cleitonluizdev.com.br/blog"
+  name: "Blog sobre Desenvolvimento e Tecnologia | Cleiton Luiz"
+  description: "Artigos e tutoriais sobre desenvolvimento web, tecnologia e carreira. Acompanhe as últimas postagens de Cleiton Luiz e aprofunde seus conhecimentos."
+  publisher:
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre/"
+  # Os blogPosts individuais são definidos em cada página de postagem.
 pagination:
   data: collections.posts
   size: 10

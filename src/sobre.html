@@ -21,8 +21,34 @@ meta:
   image:
     src: https://cleitonluizdev.com.br/images/page.png
   author:
-    url: https://cleitonluizdev.com.br/sobre
+    url: https://cleitonluizdev.com.br/sobre/
     name: Cleiton Teodoro
+schema:
+  '@context': https://schema.org
+  '@type': AboutPage
+  mainEntityOfPage:
+    '@type': WebPage
+    '@id': "https://cleitonluizdev.com.br/sobre"
+  headline: "Sobre Mim | Cleiton Luiz - Desenvolvedor Web"
+  description: "Conheça a trajetória profissional de Cleiton Luiz, um desenvolvedor web com experiência em JavaScript, Node.js, Python e mais. Descubra minhas habilidades e paixão por tecnologia."
+  image: "https://cleitonluizdev.com.br/assets/images/me.jpg"
+  mainEntity:
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre"
+    image: "https://cleitonluizdev.com.br/assets/images/me.jpg"
+    jobTitle: "Desenvolvedor Web"
+    worksFor:
+      '@type': Organization
+      name: "Site"
+    knowsAbout:
+      - "React"
+      - "Next.js"
+      - "Node.js"
+      - "Python"
+      - "TypeScript"
+      - "SQL"
+      - "Docker"
 ---
 
 <section id="sobre" class="page-section py-20 mx-auto">

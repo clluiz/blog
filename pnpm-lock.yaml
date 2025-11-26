@@ -7,14 +7,19 @@ settings:
 importers:
 
   .:
-    dependencies:
-      eslint:
-        specifier: ^9.39.1
-        version: 9.39.1(jiti@2.6.1)
     devDependencies:
       '@11ty/eleventy':
         specifier: ^3.1.2
         version: 3.1.2
+      '@11ty/eleventy-plugin-syntaxhighlight':
+        specifier: ^5.0.2
+        version: 5.0.2
+      '@eslint/eslintrc':
+        specifier: ^3.3.1
+        version: 3.3.1
+      '@eslint/js':
+        specifier: ^9.39.1
+        version: 9.39.1
       '@quasibit/eleventy-plugin-schema':
         specifier: ^1.11.1
         version: 1.11.1(@11ty/eleventy@3.1.2)
@@ -24,9 +29,18 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@4.1.17)
+      const:
+        specifier: ^1.0.0
+        version: 1.0.0
       cssnano:
         specifier: ^7.1.2
         version: 7.1.2(postcss@8.5.6)
+      eslint:
+        specifier: ^9.39.1
+        version: 9.39.1(jiti@2.6.1)
+      globals:
+        specifier: ^16.5.0
+        version: 16.5.0
       luxon:
         specifier: ^3.7.2
         version: 3.7.2
@@ -53,6 +67,9 @@ packages:
   '@11ty/eleventy-plugin-bundle@3.0.7':
     resolution: {integrity: sha512-QK1tRFBhQdZASnYU8GMzpTdsMMFLVAkuU0gVVILqNyp09xJJZb81kAS3AFrNrwBCsgLxTdWHJ8N64+OTTsoKkA==}
     engines: {node: '>=18'}
+
+  '@11ty/eleventy-plugin-syntaxhighlight@5.0.2':
+    resolution: {integrity: sha512-T6xVVRDJuHlrFMHbUiZkHjj5o1IlLzZW+1IL9eUsyXFU7rY2ztcYhZew/64vmceFFpQwzuSfxQOXxTJYmKkQ+A==}
 
   '@11ty/eleventy-utils@2.0.7':
     resolution: {integrity: sha512-6QE+duqSQ0GY9rENXYb4iPR4AYGdrFpqnmi59tFp9VrleOl0QSh8VlBr2yd6dlhkdtj7904poZW5PvGr9cMiJQ==}
@@ -393,6 +410,9 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
+  const@1.0.0:
+    resolution: {integrity: sha512-E24n5WFSXaU6+BFaCqImKvuoroCm4jzi4imyA0e20wODGm02n/PmfNLOdngkXAh9DYSEDZIQ/cR+ADEPD1GJpA==}
+
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
@@ -674,6 +694,10 @@ packages:
 
   globals@14.0.0:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
+    engines: {node: '>=18'}
+
+  globals@16.5.0:
+    resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
     engines: {node: '>=18'}
 
   graceful-fs@4.2.11:
@@ -1228,6 +1252,10 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
+  prismjs@1.30.0:
+    resolution: {integrity: sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==}
+    engines: {node: '>=6'}
+
   prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
 
@@ -1441,6 +1469,10 @@ snapshots:
     transitivePeerDependencies:
       - posthtml
       - supports-color
+
+  '@11ty/eleventy-plugin-syntaxhighlight@5.0.2':
+    dependencies:
+      prismjs: 1.30.0
 
   '@11ty/eleventy-utils@2.0.7': {}
 
@@ -1797,6 +1829,8 @@ snapshots:
 
   concat-map@0.0.1: {}
 
+  const@1.0.0: {}
+
   cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
@@ -2098,6 +2132,8 @@ snapshots:
       is-glob: 4.0.3
 
   globals@14.0.0: {}
+
+  globals@16.5.0: {}
 
   graceful-fs@4.2.11: {}
 
@@ -2576,6 +2612,8 @@ snapshots:
       posthtml-render: 3.0.0
 
   prelude-ls@1.2.1: {}
+
+  prismjs@1.30.0: {}
 
   prr@1.0.1: {}
 

@@ -1,19 +1,20 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('fs')
+const path = require('path')
 
-const cssnano = require('cssnano');
-const postcss = require('postcss');
+const cssnano = require('cssnano')
+const postcss = require('postcss')
 const tailwindcss = require('@tailwindcss/postcss')
-const { DateTime } = require("luxon");
-const schema = require("@quasibit/eleventy-plugin-schema");
+const { DateTime } = require('luxon')
+const schema = require('@quasibit/eleventy-plugin-schema')
 
 
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.addFilter("date", (dateObj, format) => {
+  eleventyConfig.addPlugin(schema)
+  eleventyConfig.addFilter('date', (dateObj, format) => {
     // Set the zone to UTC to prevent timezone shifts
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(format);
-  });
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(format)
+  })
 
   eleventyConfig.addFilter('readTime', (value) => {
     const content = value
@@ -33,29 +34,29 @@ module.exports = function (eleventyConfig) {
     return Array.from(tagsSet).sort()
   })  
 
-  eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy('src/llms.txt')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
 
   eleventyConfig.on('eleventy.before', async () => {
-    const tailwindInputPath = path.resolve('./src/assets/styles/index.css');
+    const tailwindInputPath = path.resolve('./src/assets/styles/index.css')
 
-    const tailwindOutputPath = './_site/assets/styles/index.css';
+    const tailwindOutputPath = './_site/assets/styles/index.css'
 
-    const cssContent = fs.readFileSync(tailwindInputPath, 'utf8');
+    const cssContent = fs.readFileSync(tailwindInputPath, 'utf8')
 
-    const outputDir = path.dirname(tailwindOutputPath);
+    const outputDir = path.dirname(tailwindOutputPath)
     if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
+      fs.mkdirSync(outputDir, { recursive: true })
     }
 
     const result = await processor.process(cssContent, {
       from: tailwindInputPath,
       to: tailwindOutputPath,
-    });
+    })
 
-    fs.writeFileSync(tailwindOutputPath, result.css);
-  });
+    fs.writeFileSync(tailwindOutputPath, result.css)
+  })
 
   const processor = postcss([
     //compile tailwind
@@ -65,12 +66,12 @@ module.exports = function (eleventyConfig) {
     cssnano({
       preset: 'default',
     }),
-  ]);
+  ])
 
   return {
     dir: {
-      input: "src",
-      output: "_site"
+      input: 'src',
+      output: '_site'
     }
   }
 }

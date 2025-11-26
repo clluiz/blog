@@ -16,4 +16,4 @@ module.exports = {
     '@type': 'WebPage',
     '@id': 'https://cleitonluizdev.com.br',
   },
-};
+}

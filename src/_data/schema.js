@@ -6,11 +6,11 @@ module.exports = {
   ],
   author: {
     name: 'Cleiton',
-    url: 'https://cleitonluizdev.com.br/about',
+    url: 'https://cleitonluizdev.com.br/sobre',
   },
   publisher: {
     name: 'Cleiton',
-    url: 'https://cleitonluizdev.com.br/about',
+    url: 'https://cleitonluizdev.com.br/sobre',
   },
   mainEntityOfPage: {
     '@type': 'WebPage',

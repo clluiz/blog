@@ -1,3 +1,27 @@
+---
+title: Projetos pessoais
+description: "Lista de projetos pessoais desenvolvidos por Cleiton Luiz."
+type: WebPage
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: en-US
+  url: https://cleitonluizdev.com.br/projects
+  title: "Projetos pessoais"
+  description: "Projetos pessoais"
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
+  author:
+    url: https://cleitonluizdev.com.br/projects/
+    name: Cleiton Teodoro
+---
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
 
@@ -67,47 +91,30 @@
         soluções de ponta.</p>
     </div>
 
-    <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col mb-12 w-1/2">
 
-      <div class="p-8">
-        <h3 class="text-2xl font-bold text-white mb-3">Plataforma de E-commerce SaaS</h3>
-        <p class="mb-5 text-slate-400">
-          Desenvolvimento de uma plataforma de e-commerce multitenant completa, com foco em alta performance,
-          escalabilidade e segurança. Arquitetura de microsserviços.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-6">
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Next.js</span>
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Kubernetes</span>
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
-        </div>
-        <div class="flex gap-4">
-          <a href="#" class="font-semibold hover:underline text-blue-600">Ver ao Vivo</a>
-          <a href="#" class="font-semibold hover:underline text-slate-600">Ver Código (GitHub)</a>
+    {% for project in projects %}
+      <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col mb-12 w-1/2">
+
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-white mb-3">{{ project.title }}</h3>
+          <p class="mb-5 text-slate-400">
+            {{ project.description }}
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            {% for tech in project.tech_stack %}
+              <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">{{ tech }}</span>
+            {% endfor %}
+            <!-- <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
+            <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Kubernetes</span>
+            <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span> -->
+          </div>
+          <div class="flex gap-4">
+            <a href="{{ project.url }}" class="font-semibold hover:underline text-blue-600">Ver ao Vivo</a>
+            <a href="{{ project.github_url }}" class="font-semibold hover:underline text-slate-600">Ver Código (GitHub)</a>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col mb-12 w-1/2">
-
-      <div class="p-8">
-        <h3 class="text-2xl font-bold text-white mb-3">Dashboard de Análise de Dados</h3>
-        <p class="mb-5 text-slate-400">
-          Aplicação web inteligente para visualização de dados em tempo real. Interface reativa e back-end otimizado
-          para consultas complexas.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-6">
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">React</span>
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Python (flask)</span>
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">D3.js</span>
-          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">MongoDB</span>
-        </div>
-        <div class="flex gap-4">
-          <a href="#" class="font-semibold hover:underline text-blue-600">Ver ao Vivo</a>
-          <a href="#" class="font-semibold hover:underline text-slate-600">Ver Código (GitHub)</a>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
 
   </section>
 

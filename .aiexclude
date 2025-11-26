@@ -1,13 +1,16 @@
-# Ignore dependencies
 node_modules/**
-**/.package-lock.json
+package-lock.json
 pnpm-lock.yaml
 
-# Ignore build outputs
 _site/**
 
-# Ignore git folder
-.git/**
+src/assets/images/**
+src/assets/fonts/**
+*.ico
+*.svg
 
+src/llms.txt
 llms.txt
-sitemap.njk
+
+.git/**
+.DS_Store

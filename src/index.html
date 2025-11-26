@@ -61,69 +61,7 @@ permalink: /
             </div>
         </section>
 
-                <!-- <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const navLinks = document.querySelectorAll('.nav-link');
-                const pageSections = document.querySelectorAll('.page-section');
-                const menuBtn = document.getElementById('menu-btn');
-                const mobileMenu = document.getElementById('mobile-menu');
-                let activeLink = null; // Para guardar a referência do link ativo
 
-                function showSection(targetId) {
-                    // Esconde todas as seções
-                    pageSections.forEach(section => {
-                        section.classList.add('hidden');
-                    });
-
-                    // Mostra a seção alvo
-                    const targetSection = document.getElementById(targetId);
-                    if (targetSection) {
-                        targetSection.classList.remove('hidden');
-                    }
-
-                    // Atualiza o estado ativo nos links
-                    navLinks.forEach(link => {
-                        if (link.dataset.target === targetId) {
-                            // Define o link atual como ativo
-                            link.classList.add('text-secondary');
-                            link.classList.add('font-bold');
-                            link.classList.remove('text-medium-text');
-                            activeLink = link; // Armazena a referência
-                        } else {
-                            // Remove o estado ativo dos outros links
-                            link.classList.remove('text-secondary');
-                            link.classList.remove('font-bold');
-                            link.classList.add('text-medium-text');
-                        }
-                    });
-                    
-                    // Em telas pequenas, esconde o menu mobile após o clique
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                    }
-
-                    // Leva o usuário ao topo da página (útil para navegação)
-                    window.scrollTo(0, 0);
-                }
-
-                // Adiciona listeners de clique aos links de navegação
-                navLinks.forEach(link => {
-                    link.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        const targetId = link.getAttribute('data-target');
-                        showSection(targetId);
-                    });
-                });
-
-                // Adiciona listener ao botão de menu mobile
-                menuBtn.addEventListener('click', () => {
-                    mobileMenu.classList.toggle('hidden');
-                });
-
-                // Mostra a seção 'home' por padrão ao carregar
-                showSection('home');
-            });
-    </script> -->
 
 </body>
 

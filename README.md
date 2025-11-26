@@ -2,6 +2,6 @@
 
 - Ajustes SEO;
 - Ajustar imagens;
-- Ajuster menu responsivo;
+- Ajustar menu responsivo;
 - Adicionar google analytics;
-- Refatorar componentes;
+- Adicionar paginação;

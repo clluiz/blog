@@ -6,10 +6,13 @@ const postcss = require('postcss')
 const tailwindcss = require('@tailwindcss/postcss')
 const { DateTime } = require('luxon')
 const schema = require('@quasibit/eleventy-plugin-schema')
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 
 module.exports = function (eleventyConfig) {
 
+  eleventyConfig.configureErrorReporting({ allowMissingExtensions: true })
+  eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(schema)
   eleventyConfig.addFilter('date', (dateObj, format) => {
     // Set the zone to UTC to prevent timezone shifts

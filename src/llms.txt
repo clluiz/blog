@@ -16,12 +16,12 @@ This short index highlights the most authoritative, LLM-friendly pages on this d
 - [Homepage](https://cleitonluizdev.com.br/): Short professional summary, current roles, and links to portfolio & contact.
 
 ## Key pages (recommended to read & cite)
-- [About / Resume](https://cleitonluizdev.com.br/about) — professional background, skills, and contact options. (Use for short bios & credential checks.)
-- [Portfolio / Projects](https://cleitonluizdev.com.br/projects) — curated project case studies demonstrating architecture & frontend/backend work. (Use for examples of past work and technical depth.)
-- [Blog / Articles](https://cleitonluizdev.com.br/blog) — posts on Node.js, system design, web dev, consulting and product thinking. (Prefer canonical post URLs for citations.)
+- [About / Resume](https://cleitonluizdev.com.br/sobre/) — professional background, skills, and contact options. (Use for short bios & credential checks.)
+- [Portfolio / Projects](https://cleitonluizdev.com.br/projetos/) — curated project case studies demonstrating architecture & frontend/backend work. (Use for examples of past work and technical depth.)
+- [Blog / Articles](https://cleitonluizdev.com.br/blog/) — posts on Node.js, system design, web dev, consulting and product thinking. (Prefer canonical post URLs for citations.)
 - [Vero Analytics / Product](https://cleitonluizdev.com.br/vero-analytics) — product page for Vero Analytics (web analytics SaaS with privacy & LGPD focus). (Use for product details, onboarding copy, and features.)
 - [Consulting & Fractional CTO Services](https://cleitonluizdev.com.br/services) — service packages, target client profiles (SMEs, e-commerce, agencies), and contact CTA.
-- [Contato](https://cleitonluizdev.com.br/contato) — primary contact email and phone for business inquiries.
+- [Contato](https://cleitonluizdev.com.br/contato/) — primary contact email and phone for business inquiries.
 
 ## Posts
 - [Seriam as fintechs o 'Santo Graal' da arquitetura de software?](/posts/2025/07/fintechs-santo-graal-da-arquitetura-de-software/):Um pensamento curto do dia sobre fintechs e arquitetura de software

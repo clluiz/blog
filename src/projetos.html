@@ -3,6 +3,7 @@ title: Projetos pessoais
 layout: base.njk
 description: "Lista de projetos pessoais desenvolvidos por Cleiton Luiz."
 type: WebPage
+target: projetos
 meta:
   site:
     name: Site
@@ -22,6 +23,7 @@ meta:
   author:
     url: https://cleitonluizdev.com.br/projects/
     name: Cleiton Teodoro
+permalink: /projetos.html
 ---
 
   <section id="projetos" class="page-section py-20 flex flex-col items-center">
@@ -45,9 +47,6 @@ meta:
             {% for tech in project.tech_stack %}
               <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">{{ tech }}</span>
             {% endfor %}
-            <!-- <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
-            <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Kubernetes</span>
-            <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span> -->
           </div>
           <div class="flex gap-4">
             <a href="{{ project.url }}" class="font-semibold hover:underline text-blue-600">Ver ao Vivo</a>

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Piti.co",
+    "description": "Encurtador de url. Sempre tive curiosidade sobre como encurtadores são feitos então resolvi criar o meu. Pretendo estdar formas de escalar esse projeto para mais de 1 milhão de requisições diárias",
+    "tech_stack": ["Fastify", "Postgresql", "Redis", "Knex"],
+    "github_url": "https://github.com/clluiz/pitico"
+  },
+  {
+    "title": "Vero analytics",
+    "description": "Eu criei esse projeto por que acho muito difícil usar o Google Analytics. Quero um web analytics fácil de usar",
+    "tech_stack": ["TypeScript", "Fastify", "Prisma", "Postgres", "Docker", "React"],
+    "github_url": "https://github.com/clluiz/vero-analytics-api"
+  }
+]

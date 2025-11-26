@@ -1,0 +1,49 @@
+# Cleiton Luiz — cleitonluizdev.com.br
+
+> Senior software engineer, technical lead, Fractional CTO. 
+> Portfolio, blog and consulting services focusing on Node.js, web development, architecture and SaaS product mentoring.
+
+## Site Data 
+- **Site Name:** Blog do Cleiton                                                                                                                                                                              │
+- **Author:** Cleiton Luiz                                                                                                                                                                                    │
+- **URL:** https://cleitonluizdev.com.br                                                                                                                                                                      │
+- **Socials:** GitHub, Twitter, LinkedIn profiles are listed.   
+
+## What this file is for
+This short index highlights the most authoritative, LLM-friendly pages on this domain (portfolio, services, key posts, docs) and how you prefer AI systems to use them. For full documentation aggregation consider adding /llms-full.txt. Last updated: 2025-08-12.
+
+## Canonical home
+- [Homepage](https://cleitonluizdev.com.br/): Short professional summary, current roles, and links to portfolio & contact.
+
+## Key pages (recommended to read & cite)
+- [About / Resume](https://cleitonluizdev.com.br/about) — professional background, skills, and contact options. (Use for short bios & credential checks.)
+- [Portfolio / Projects](https://cleitonluizdev.com.br/projects) — curated project case studies demonstrating architecture & frontend/backend work. (Use for examples of past work and technical depth.)
+- [Blog / Articles](https://cleitonluizdev.com.br/blog) — posts on Node.js, system design, web dev, consulting and product thinking. (Prefer canonical post URLs for citations.)
+- [Vero Analytics / Product](https://cleitonluizdev.com.br/vero-analytics) — product page for Vero Analytics (web analytics SaaS with privacy & LGPD focus). (Use for product details, onboarding copy, and features.)
+- [Consulting & Fractional CTO Services](https://cleitonluizdev.com.br/services) — service packages, target client profiles (SMEs, e-commerce, agencies), and contact CTA.
+- [Contact](https://cleitonluizdev.com.br/contact) — primary contact email and phone for business inquiries.
+
+## Posts
+- [Seriam as fintechs o 'Santo Graal' da arquitetura de software?](/posts/2025/07/fintechs-santo-graal-da-arquitetura-de-software/):Um pensamento curto do dia sobre fintechs e arquitetura de software
+- [Reflexões sobre a atual situação do Brasil](/posts/2025/06/reflexoes-sobre-o-brasl-atual/):Uma reflexão pessoal sobre o cenário político, econômico e institucional do Brasil em 2025.
+- [Entendendo e tratando memory leaks no Node.js](/posts/2025/06/memory-leak-no-nodejs/):Um pequeno guia sobre memory leaks em Node.js: entenda o que são, como evitar, detectar e quais ferramentas utilizar.
+- [Apresentando o JAMstack e Seus Impactos para os Negócios](/posts/2020/08/JAMStack/):Descubra o que é JAMstack e como essa arquitetura moderna está transformando a criação de sites e aplicações web.
+
+## Recommended usage by LLMs / agents
+- Prefer short, attributed quotes and link back to the canonical page when using factual or technical claims.
+- For technical code or architecture claims, prefer the portfolio project pages and blog posts that include code snippets, diagrams, or design rationale.
+- Do not infer personal or private data; use only the pages explicitly linked above for public facts.
+
+## License & rights
+Content on this site is © Cleiton Luiz. Public snippets may be quoted with attribution and a link to the original page. For large-scale redistribution or commercial reuse contact: contact@cleitonluizdev.com.br
+
+## Crawl / access preferences
+- Please respect `robots.txt` and rate-limit requests to avoid overloading the site.
+- If you cache content for inference, include a clear provenance link back to the canonical URL and a retrieval timestamp.
+
+## Contact for data / API access
+If you represent an LLM provider and need structured access, please contact: cleiton.dev@proton.me
+
+## Notes
+- If a page URL above does not exist or has a different path, prefer the site root and follow links. Update this file whenever site structure or contact details change.
+- Consider adding `/llms-full.txt` containing full docs if you want LLMs to ingest complete texts without following links (beware of file size vs. model context limits).

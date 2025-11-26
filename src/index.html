@@ -1,0 +1,344 @@
+---
+title: Home
+layout: false
+---
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <!-- Importa a fonte Inter (opcional, mas recomendado para um visual moderno) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-sky-950 text-light-text font-sans antialiased">
+
+    <!-- ===== HEADER / NAVEGAÇÃO ===== -->
+    <header class="bg-slate-800/80 backdrop-blur-sm shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo / Nome -->
+                <div>
+                    <a href="#" class="text-2xl font-bold text-white nav-link" data-target="home">
+                        Cleiton Luiz
+                    </a>
+                </div>
+
+                <!-- Links do Menu (Desktop) -->
+                <div class="hidden lg:flex items-center space-x-8 text-slate-400">
+                    <a href="#" class="nav-link text-medium-text hover:text-blue-400 text-white"
+                        data-target="home">Home</a>
+                    <a href="sobre" class="nav-link text-medium-text hover:text-blue-400" data-target="sobre">Sobre</a>
+                    <a href="blog" class="nav-link text-medium-text hover:text-blue-400" data-target="blog">Blog</a>
+                    <a href="/projetos" class="nav-link text-medium-text hover:text-blue-400"
+                        data-target="projetos">Projetos</a>
+                    <a href="contato"
+                        class="nav-link bg-primary hover:bg-blue-400 hover:text-white px-5 py-2 rounded-md transition duration-300"
+                        data-target="contato">Contato</a>
+                </div>
+
+                <!-- Botão do Menu (Mobile) -->
+                <div class="lg:hidden">
+                    <button id="menu-btn" class="text-light-text focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Menu Mobile (Oculto por padrão) -->
+            <div id="mobile-menu" class="hidden lg:hidden mt-4 space-y-2 text-slate-400">
+                <a href="#" class="block nav-link text-medium-text hover:text-blue-400 text-white"
+                    data-target="home">Home</a>
+                <a href="sobre" class="block nav-link text-medium-text hover:text-blue-400"
+                    data-target="sobre">Sobre</a>
+                <a href="blog" class="block nav-link text-medium-text hover:text-blue-400" data-target="blog">Blog</a>
+                <a href="/projetos" class="block nav-link text-medium-text hover:text-blue-400"
+                    data-target="projetos">Projetos</a>
+                <a href="contato"
+                    class="block nav-link bg-primary hover:bg-blue-400 hover:text-white px-5 py-2 rounded-md transition duration-300 mt-2"
+                    data-target="contato">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- ===== SEÇÃO HOME ===== -->
+        <section id="home" class="page-section min-h-[80vh] flex items-center">
+            <div class="flex flex-col-reverse lg:flex-row items-center justify-between w-full">
+                <!-- Texto da Home -->
+                <div class="lg:w-1/2 mt-10 lg:mt-0">
+                    <span class="text-blue-600 font-semibold">Olá, eu sou Cleiton Luiz</span>
+                    <h1 class="text-4xl lg:text-6xl font-extrabold text-white mt-2 mb-4 leading-tight">
+                        Programador
+                        <span class="block text-blue-600">Construindo Aplicações de Alta Performance</span>
+                    </h1>
+                    <p class="text-lg text-medium-text mb-8 max-w-lg text-slate-400">
+                        Especialista em criar aplicações web de alta performance que resolvem problemas complexos e
+                        impulsionam o sucesso do cliente.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="nav-link bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
+                            data-target="projetos">
+                            Ver Projetos
+                        </a>
+                        <a href="#"
+                            class="nav-link border-2 text-slate-400 border-slate-400 border-medium-text hover:border-gray-200 hover:text-gray-200 text-light-text font-bold py-3 px-6 rounded-lg transition duration-300"
+                            data-target="contato">
+                            Fale Comigo
+                        </a>
+                    </div>
+                </div>
+                <!-- Imagem/Gráfico da Home -->
+                <div class="lg:w-1/2 flex justify-center lg:justify-end">
+                    <img src="/assets/images/brain.png" alt="Ilustração de Desenvolvimento"
+                        class="rounded-full shadow-2xl shadow-blue-900/40 w-80 h-80 lg:w-[500px] lg:h-[500px] object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO SOBRE ===== -->
+        <!-- <section id="sobre" class="page-section hidden py-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-white mb-3">Sobre Mim</h2>
+                <p class="text-lg text-medium-text max-w-2xl mx-auto">Uma breve introdução sobre minha paixão por tecnologia e minha jornada profissional.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/3">
+                    <img src="https://placehold.co/400x400/1f2937/3b82f6?text=Foto&font=inter" 
+                         alt="Foto de [Seu Nome]" 
+                         class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="lg:w-2/3">
+                    <h3 class="text-2xl font-bold text-secondary mb-4">Profissional de TI focado em Resultados</h3>
+                    <p class="text-medium-text mb-4">
+                        Com [X] anos de experiência, minha missão é traduzir ideias complexas em soluções de software elegantes e funcionais. Eu prospero em ambientes desafiadores, sempre buscando a arquitetura mais robusta e a melhor experiência do usuário.
+                    </p>
+                    <p class="text-medium-text mb-6">
+                        Seja desenvolvendo um back-end escalável ou um front-end interativo, meu compromisso é com a qualidade, performance e inteligência de código.
+                    </p>
+                    <h4 class="text-xl font-semibold text-white mb-3">Principais Habilidades:</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-dark-card text-secondary font-medium px-4 py-1 rounded-full">React / Next.js</span>
+                        <span class="bg-dark-card text-secondary font-medium px-4 py-1 rounded-full">Node.js / Express</span>
+                        <span class="bg-dark-card text-secondary font-medium px-4 py-1 rounded-full">Python / Django</span>
+                        <span class="bg-dark-card text-secondary font-medium px-4 py-1 rounded-full">TypeScript</span>
+                        <span class="bg-dark-card text-secondary font-medium px-4 py-1 rounded-full">Bancos de Dados (SQL/NoSQL)</span>
+                        <span class="bg-dark-card text-secondary font-medium px-4 py-1 rounded-full">Docker & AWS</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- ===== SEÇÃO BLOG ===== -->
+        <!-- <section id="blog" class="page-section hidden py-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-white mb-3">Blog</h2>
+                <p class="text-lg text-medium-text max-w-2xl mx-auto">Artigos, tutoriais e insights sobre o mundo do desenvolvimento web e tecnologia.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-dark-card rounded-lg shadow-lg overflow-hidden transition duration-300 hover:shadow-secondary/30 hover:shadow-xl">
+                    <img src="https://placehold.co/600x400/1f2937/3b82f6?text=Artigo+1&font=inter" alt="Imagem do Post" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-secondary font-medium">Arquitetura de Software</span>
+                        <h3 class="text-xl font-bold text-white my-2">A importância de um Back-end Robusto</h3>
+                        <p class="text-medium-text mb-4 line-clamp-3">
+                            Explorando como uma arquitetura de back-end bem definida é o pilar para aplicações escaláveis e...
+                        </p>
+                        <a href="#" class="text-secondary hover:underline font-semibold">Ler mais &rarr;</a>
+                    </div>
+                </div>
+                <div class="bg-dark-card rounded-lg shadow-lg overflow-hidden transition duration-300 hover:shadow-secondary/30 hover:shadow-xl">
+                    <img src="https://placehold.co/600x400/1f2937/3b82f6?text=Artigo+2&font=inter" alt="Imagem do Post" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-secondary font-medium">Front-end</span>
+                        <h3 class="text-xl font-bold text-white my-2">Inteligência de UI: Além do Bonito</h3>
+                        <p class="text-medium-text mb-4 line-clamp-3">
+                            Uma interface não deve ser apenas bonita, mas inteligente. Discutindo usabilidade e performance...
+                        </p>
+                        <a href="#" class="text-secondary hover:underline font-semibold">Ler mais &rarr;</a>
+                    </div>
+                </div>
+                <div class="bg-dark-card rounded-lg shadow-lg overflow-hidden transition duration-300 hover:shadow-secondary/30 hover:shadow-xl">
+                    <img src="https://placehold.co/600x400/1f2937/3b82f6?text=Artigo+3&font=inter" alt="Imagem do Post" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-secondary font-medium">DevOps</span>
+                        <h3 class="text-xl font-bold text-white my-2">CI/CD: Agilidade e Confiança</h3>
+                        <p class="text-medium-text mb-4 line-clamp-3">
+                            Como a automação de deploy pode transformar o ciclo de desenvolvimento e garantir a robustez...
+                        </p>
+                        <a href="#" class="text-secondary hover:underline font-semibold">Ler mais &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- ===== SEÇÃO PROJETOS ===== -->
+        <!-- <section id="projetos" class="page-section hidden py-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-white mb-3">Projetos em Destaque</h2>
+                <p class="text-lg text-medium-text max-w-2xl mx-auto">Alguns trabalhos que demonstram minha capacidade de entregar soluções de ponta.</p>
+            </div>
+
+            <div class="bg-dark-card rounded-lg shadow-xl overflow-hidden flex flex-col lg:flex-row mb-12">
+                <div class="lg:w-1/2">
+                    <img src="https://placehold.co/800x600/1f2937/3b82f6?text=Projeto+A&font=inter" alt="Preview do Projeto A" class="h-full w-full object-cover">
+                </div>
+                <div class="lg:w-1/2 p-8 lg:p-12">
+                    <h3 class="text-2xl font-bold text-white mb-3">Plataforma de E-commerce SaaS</h3>
+                    <p class="text-medium-text mb-5">
+                        Desenvolvimento de uma plataforma de e-commerce multitenant completa, com foco em alta performance, escalabilidade e segurança. Arquitetura de microsserviços.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">Next.js</span>
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">Kubernetes</span>
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-secondary font-semibold hover:underline">Ver ao Vivo</a>
+                        <a href="#" class="text-medium-text font-semibold hover:underline">Ver Código (GitHub)</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark-card rounded-lg shadow-xl overflow-hidden flex flex-col lg:flex-row-reverse">
+                <div class="lg:w-1/2">
+                    <img src="https://placehold.co/800x600/1f2937/3b82f6?text=Projeto+B&font=inter" alt="Preview do Projeto B" class="h-full w-full object-cover">
+                </div>
+                <div class="lg:w-1/2 p-8 lg:p-12">
+                    <h3 class="text-2xl font-bold text-white mb-3">Dashboard de Análise de Dados</h3>
+                    <p class="text-medium-text mb-5">
+                        Aplicação web inteligente para visualização de dados em tempo real. Interface reativa e back-end otimizado para consultas complexas.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">React</span>
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">Python (Flask)</span>
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">D3.js</span>
+                        <span class="bg-gray-900 text-secondary text-xs font-semibold px-3 py-1 rounded-full">MongoDB</span>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-secondary font-semibold hover:underline">Ver ao Vivo</a>
+                        <a href="#" class="text-medium-text font-semibold hover:underline">Ver Código (GitHub)</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark-card border-t border-gray-700 mt-20">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-medium-text text-sm text-white">&copy; 2025 Cleiton Luiz. Todos os direitos reservados.
+                </p>
+                <!-- Links Sociais -->
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="https://www.linkedin.com/in/cleiton-teodoro" target="_blank" rel="noopener noreferrer"
+                        class="text-medium-text hover:text-blue-500 text-slate-400" aria-label="LinkedIn">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.783 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/clluiz" target="_blank" rel="noopener noreferrer"
+                        class="text-medium-text hover:text-blue-500 text-slate-400" aria-label="GitHub">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.109-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://x.com/cleiton_dev" target="_blank" rel="noopener noreferrer"
+                        class="text-medium-text hover:text-blue-500 text-slate-400" aria-label="X">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPT DE NAVEGAÇÃO SPA (Single Page Application) ===== -->
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const pageSections = document.querySelectorAll('.page-section');
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            let activeLink = null; // Para guardar a referência do link ativo
+
+            function showSection(targetId) {
+                // Esconde todas as seções
+                pageSections.forEach(section => {
+                    section.classList.add('hidden');
+                });
+
+                // Mostra a seção alvo
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.classList.remove('hidden');
+                }
+
+                // Atualiza o estado ativo nos links
+                navLinks.forEach(link => {
+                    if (link.dataset.target === targetId) {
+                        // Define o link atual como ativo
+                        link.classList.add('text-secondary');
+                        link.classList.add('font-bold');
+                        link.classList.remove('text-medium-text');
+                        activeLink = link; // Armazena a referência
+                    } else {
+                        // Remove o estado ativo dos outros links
+                        link.classList.remove('text-secondary');
+                        link.classList.remove('font-bold');
+                        link.classList.add('text-medium-text');
+                    }
+                });
+                
+                // Em telas pequenas, esconde o menu mobile após o clique
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+
+                // Leva o usuário ao topo da página (útil para navegação)
+                window.scrollTo(0, 0);
+            }
+
+            // Adiciona listeners de clique aos links de navegação
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('data-target');
+                    showSection(targetId);
+                });
+            });
+
+            // Adiciona listener ao botão de menu mobile
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Mostra a seção 'home' por padrão ao carregar
+            showSection('home');
+        });
+    </script> -->
+
+</body>
+
+</html>

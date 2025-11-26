@@ -1,0 +1,17 @@
+---
+layout: blog.njk
+---
+<article class="container mx-auto px-6 py-12 lg:py-16 max-w-4xl">
+  <header class="mb-8 text-center">
+    <h1 class="text-3xl lg:text-5xl font-extrabold text-white mb-4">{{ title }}</h1>
+  </header>
+  
+  <div>
+    <time datetime="{{ page.date | date: 'dd/MM/yyyy' }}" class="text-lg text-blue-600 font-semibold">{{ page.date | date: "dd/MM/yyyy" }}</time>
+  </div>  
+  
+  <div class="prose prose-invert lg:prose-xl max-w-none text-slate-400">
+    <span>{{ content | readTime }} min read</span>
+    {{ content }}
+  </div>
+</article>

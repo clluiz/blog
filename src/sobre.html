@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/styles/index.css">
+  <!-- Importa a fonte Inter (opcional, mas recomendado para um visual moderno) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-sky-950 text-light-text font-sans antialiased">
+
+  <header class="bg-slate-800/80 backdrop-blur-sm shadow-lg sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4">
+      <div class="flex justify-between items-center">
+        <!-- Logo / Nome -->
+        <div>
+          <a href="#" class="text-2xl font-bold text-white nav-link" data-target="home">
+            Cleiton Luiz
+          </a>
+        </div>
+
+        <!-- Links do Menu (Desktop) -->
+        <div class="hidden lg:flex items-center space-x-8 text-slate-400">
+          <a href="/" class="nav-link text-medium-text hover:text-blue-400" data-target="home">Home</a>
+          <a href="sobre" class="nav-link text-white  hover:text-blue-400" data-target="sobre">Sobre</a>
+          <a href="/blog" class="nav-link text-medium-text hover:text-blue-400" data-target="blog">Blog</a>
+          <a href="/projetos" class="nav-link text-medium-text hover:text-blue-400" data-target="projetos">Projetos</a>
+          <a href="/contato"
+            class="nav-link bg-primary hover:bg-blue-400 hover:text-white px-5 py-2 rounded-md transition duration-300"
+            data-target="contato">Contato</a>
+        </div>
+
+        <!-- Botão do Menu (Mobile) -->
+        <div class="lg:hidden">
+          <button id="menu-btn" class="text-light-text focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Menu Mobile (Oculto por padrão) -->
+      <div id="mobile-menu" class="hidden lg:hidden mt-4 space-y-2 text-slate-400">
+        <a href="/" class="block nav-link text-medium-text hover:text-blue-400" data-target="home">Home</a>
+        <a href="sobre" class="block nav-link text-medium-text hover:text-blue-400" data-target="sobre">Sobre</a>
+        <a href="/blog" class="block nav-link text-medium-text hover:text-blue-400" data-target="blog">Blog</a>
+        <a href="/projetos" class="block nav-link text-medium-text hover:text-blue-400" data-target="projetos">Projetos</a>
+        <a href="/contato"
+          class="block nav-link bg-primary hover:bg-blue-400 hover:text-white px-5 py-2 rounded-md transition duration-300 mt-2"
+          data-target="contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="sobre" class="page-section py-20 mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl lg:text-4xl font-extrabold text-white mb-3">Sobre Mim</h2>
+      <p class="text-lg text-medium-text max-w-2xl mx-auto text-slate-400">Uma breve introdução sobre minha paixão por tecnologia e
+        minha jornada profissional.</p>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center lg:justify-center gap-12">
+      <div class="lg:w-1/5">
+        <img src="/assets/images/me.jpg" alt="Foto de [Seu Nome]"
+          class="rounded-lg shadow-xl w-full">
+      </div>
+      <div class="lg:w-2/3">
+        <h3 class="text-2xl font-bold text-secondary mb-4 text-blue-600">Profissional de TI focado em Resultados</h3>
+        <p class="text-medium-text mb-4 text-slate-400">
+          Com mais de 10 anos de experiência, minha missão é traduzir ideias complexas em soluções de software elegantes e
+          funcionais. Eu prospero em ambientes desafiadores, sempre buscando a arquitetura mais robusta e a melhor
+          experiência do usuário.
+        </p>
+        <p class="text-medium-text mb-6 text-slate-400">
+          Seja desenvolvendo um back-end escalável ou um front-end interativo, meu compromisso é com a qualidade,
+          performance e inteligência de código.
+        </p>
+        <h4 class="text-xl font-semibold text-white mb-3">Principais Habilidades:</h4>
+        <div class="flex flex-wrap gap-3">
+          <span class="bg-gray-800 text-blue-600 font-medium px-4 py-1 rounded-full">React / Next.js</span>
+          <span class="bg-gray-800 text-blue-600 font-medium px-4 py-1 rounded-full">Node.js / Express</span>
+          <span class="bg-gray-800 text-blue-600 font-medium px-4 py-1 rounded-full">Python / Django</span>
+          <span class="bg-gray-800 text-blue-600 font-medium px-4 py-1 rounded-full">TypeScript</span>
+          <span class="bg-gray-800 text-blue-600 font-medium px-4 py-1 rounded-full">Bancos de Dados
+            (SQL/NoSQL)</span>
+          <span class="bg-gray-800 text-blue-600 font-medium px-4 py-1 rounded-full">Docker & AWS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

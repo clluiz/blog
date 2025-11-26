@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/styles/index.css">
+  <!-- Importa a fonte Inter (opcional, mas recomendado para um visual moderno) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-sky-950 text-light-text font-sans antialiased">
+
+  <header class="bg-slate-800/80 backdrop-blur-sm shadow-lg sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4">
+      <div class="flex justify-between items-center">
+        <!-- Logo / Nome -->
+        <div>
+          <a href="#" class="text-2xl font-bold text-white nav-link" data-target="home">
+            Cleiton Luiz
+          </a>
+        </div>
+
+        <!-- Links do Menu (Desktop) -->
+        <div class="hidden lg:flex items-center space-x-8 text-slate-400">
+          <a href="/" class="nav-link text-medium-text hover:text-blue-400" data-target="home">Home</a>
+          <a href="/sobre" class="nav-link text-medium-text hover:text-blue-400" data-target="sobre">Sobre</a>
+          <a href="/blog" class="nav-link text-medium-text hover:text-blue-400" data-target="blog">Blog</a>
+          <a href="#" class="nav-link text-white  hover:text-blue-400" data-target="projetos">Projetos</a>
+          <a href="/contato"
+            class="nav-link bg-primary hover:bg-blue-400 px-5 py-2 rounded-md transition duration-300"
+            data-target="contato">Contato</a>
+        </div>
+
+        <!-- Botão do Menu (Mobile) -->
+        <div class="lg:hidden">
+          <button id="menu-btn" class="text-light-text focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Menu Mobile (Oculto por padrão) -->
+      <div id="mobile-menu" class="hidden lg:hidden mt-4 space-y-2 text-slate-400">
+        <a href="/" class="block nav-link text-medium-text hover:text-blue-400" data-target="home">Home</a>
+        <a href="/sobre" class="block nav-link text-medium-text hover:text-blue-400" data-target="sobre">Sobre</a>
+        <a href="/blog" class="block nav-link text-medium-text hover:text-blue-400" data-target="blog">Blog</a>
+        <a href="#" class="block nav-link text-medium-text hover:text-blue-400" data-target="projetos">Projetos</a>
+        <a href="/contato"
+          class="block nav-link bg-primary hover:bg-blue-400 hover:text-white text-white px-5 py-2 rounded-md transition duration-300 mt-2"
+          data-target="contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="projetos" class="page-section py-20 flex flex-col items-center">
+
+    <div class="text-center mb-12">
+      <h2 class="text-3xl lg:text-4xl font-extrabold text-white mb-3">Projetos em Destaque</h2>
+      <p class="text-lg text-slate-400 max-w-2xl mx-auto">Alguns trabalhos que demonstram minha capacidade de entregar
+        soluções de ponta.</p>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col mb-12 w-1/2">
+
+      <div class="p-8">
+        <h3 class="text-2xl font-bold text-white mb-3">Plataforma de E-commerce SaaS</h3>
+        <p class="mb-5 text-slate-400">
+          Desenvolvimento de uma plataforma de e-commerce multitenant completa, com foco em alta performance,
+          escalabilidade e segurança. Arquitetura de microsserviços.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Next.js</span>
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Kubernetes</span>
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
+        </div>
+        <div class="flex gap-4">
+          <a href="#" class="font-semibold hover:underline text-blue-600">Ver ao Vivo</a>
+          <a href="#" class="font-semibold hover:underline text-slate-600">Ver Código (GitHub)</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col mb-12 w-1/2">
+
+      <div class="p-8">
+        <h3 class="text-2xl font-bold text-white mb-3">Dashboard de Análise de Dados</h3>
+        <p class="mb-5 text-slate-400">
+          Aplicação web inteligente para visualização de dados em tempo real. Interface reativa e back-end otimizado
+          para consultas complexas.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">React</span>
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">Python (flask)</span>
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">D3.js</span>
+          <span class="bg-gray-900 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">MongoDB</span>
+        </div>
+        <div class="flex gap-4">
+          <a href="#" class="font-semibold hover:underline text-blue-600">Ver ao Vivo</a>
+          <a href="#" class="font-semibold hover:underline text-slate-600">Ver Código (GitHub)</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>

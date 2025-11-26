@@ -57,7 +57,7 @@
           <a href="/projetos/" class="block nav-link hover:text-blue-400" data-target="projetos">Projetos</a>
           <a
             href="/contato/"
-            class="block nav-link bg-primary hover:bg-blue-400 hover:text-white text-white px-5 py-2 rounded-md transition
+            class="block nav-link bg-primary hover:bg-blue-400 hover:text-white rounded-md transition
               duration-300 mt-2"
             data-target="contato">Contato</a>
         </div>
@@ -128,6 +128,11 @@
         const target = document.querySelector('[data-target="{{ target }}"]');
         target.classList.add('text-white');
       }
+
+      menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+      });
+
       showSection('{{ title }}')
 
     });

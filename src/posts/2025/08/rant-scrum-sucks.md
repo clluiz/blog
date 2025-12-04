@@ -1,5 +1,5 @@
 ---
-title: "[RANT] SCRUM: Uma ideia cujo tempo — felizmente — está passando"
+title: "[RANT] SCRUM: Uma ideia ruim que deve ser enterrada"
 date: 2025-08-26
 description: "Reclamações sobre um processo de desenvolvimento que nunca deveria ter sido tão popular e o que você deveria fazer no lugar."
 post_excerpt: "Reclamações sobre um processo de desenvolvimento que nunca deveria ter sido tão popular."
@@ -21,7 +21,7 @@ meta:
       height: 630
     language: en-US
   url: <https://cleitonluizdev.com.br/posts/2025/08/rant-scrum-sucks/>
-  title: "[RANT] SCRUM: Uma ideia cujo tempo — felizmente — está passando"
+  title: "[RANT] SCRUM: Uma ideia ruim que deve ser enterrada"
   description: "Reclamações sobre um processo de desenvolvimento que nunca deveria ter sido tão popular e o que você deveria fazer no lugar."
   image:
     src: <https://cleitonluizdev.com.br/images/page.png>

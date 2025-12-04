@@ -7,9 +7,19 @@ const tailwindcss = require('@tailwindcss/postcss')
 const { DateTime } = require('luxon')
 const schema = require('@quasibit/eleventy-plugin-schema')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const embedEverything = require('eleventy-plugin-embed-everything')
 
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.addPlugin(embedEverything, {
+    use: ['twitter', 'youtube'], // Optional: Limit to specific services if you want
+    twitter: {
+      options: {
+        align: 'center' // Optional: Centers the tweet
+      }
+    }
+  })
 
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(schema)
@@ -34,7 +44,7 @@ module.exports = function (eleventyConfig) {
         .forEach(tag => tagsSet.add(tag))
     })
     return Array.from(tagsSet).sort()
-  })  
+  })
 
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy('src/llms.txt')

@@ -58,7 +58,7 @@ PNAS: Escalonar o tamanho do modelo de linguagem gera retornos decrescentesA eco
 ## 5. As "vitórias fáceis" acabaram
 Ilya Sutskever: A era do scaling terminou Ilya Sutskever, co-criador do ChatGPT, admitiu publicamente que a "Era do Scaling" — a estratégia de simplesmente construir clusters de GPUs cada vez maiores — acabou. O paradigma de pré-treinamento estagnou, e a indústria agora corre atrás de arquiteturas inteiramente novas (como raciocínio em tempo de inferência) para encontrar o próximo salto de inteligência.
 
-Nota: este artigo é uma tradução e adaptação de um post da AI Weekly - Essentials
+Nota: este artigo é uma tradução e adaptação de um post da [AI Weekly - Essentials](https://aiweekly.co/issues/464#start)
 
 ## Links e referências:
 

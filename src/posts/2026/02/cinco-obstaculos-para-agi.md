@@ -62,8 +62,8 @@ Nota: este artigo é uma tradução e adaptação de um post da [AI Weekly - Ess
 
 ## Links e referências:
 
-1. Pesquisa da Anthropic: https://cur.at/ZANFRPk?m=email&sid=UdSwEF4
-2. Pesquisa da Apple: https://cur.at/ZANFRPk?m=email&sid=UdSwEF4
-3. Pesquisa da Nature: https://cur.at/gzqQXCG?m=email&sid=UdSwEF4
-4. Pesquisa PNAS: https://cur.at/eswOeFh?m=email&sid=UdSwEF4
-5. Transcrição: https://cur.at/UJmCuBd?m=email&sid=UdSwEF4
+1. [Pesquisa da Anthropic](https://cur.at/ZANFRPk?m=email&sid=UdSwEF4)
+2. [Pesquisa da Apple](https://cur.at/ZANFRPk?m=email&sid=UdSwEF4)
+3. [Pesquisa da Nature](https://cur.at/gzqQXCG?m=email&sid=UdSwEF4)
+4. [Pesquisa PNAS](https://cur.at/eswOeFh?m=email&sid=UdSwEF4)
+5. [Transcrição](https://cur.at/UJmCuBd?m=email&sid=UdSwEF4)

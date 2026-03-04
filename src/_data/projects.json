@@ -12,5 +12,12 @@
     "tech_stack": ["TypeScript", "Fastify", "Prisma", "Postgres", "Docker", "React"],
     "github_url": "https://github.com/clluiz/vero-analytics-api",
     "url": "https://github.com/clluiz/vero-analytics-api"
+  },
+  {
+    "title": "GeoStack (nome provisório)",
+    "description": "A maneira mais rápida de transformar dados geográficos em APIs e Mapas Interativos no seu navegador. O GeoStack é um ecossistema Cloud GIS leve projetado para desenvolvedores, analistas de dados e gestores de logística que precisam de agilidade sem a complexidade de softwares pesados ou a insegurança de ferramentas voláteis.",
+    "tech_stack": ["TypeScript", "Fastify", "Drizzle", "Postgres/Postgis", "Docker", "React", "Tanstack"],
+    "github_url": "https://github.com/clluiz/geo-stack",
+    "url": "https://github.com/clluiz/geo-stack"
   }
 ]

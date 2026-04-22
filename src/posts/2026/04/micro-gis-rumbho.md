@@ -1,6 +1,5 @@
-# Rumbho: seu o micro gis que roda no seu navegador!
 ---
-title: Rumbho: seu o micro gis que roda no seu navegador!
+title: Rumbho, seu o micro gis que roda no seu navegador!
 date: 2026-04-22
 description: "Descubra o Rumbho, um Micro-GIS inovador que roda diretamente no seu navegador. Focado em Zero-Config e Instant-Load, ele oferece edição GeoJSON em tempo real, gestão de camadas, geoprocessamento com Turf.js e geocoding integrado, ideal para profissionais de geotecnologia que buscam agilidade e eficiência."
 post_excerpt: "Descubra o Rumbho, um Micro-GIS inovador que roda diretamente no seu navegador. Focado em Zero-Config e Instant-Load, ele oferece edição GeoJSON em tempo real, gestão de camadas, geoprocessamento com Turf.js e geocoding integrado, ideal para profissionais de geotecnologia que buscam agilidade e eficiência."
@@ -69,13 +68,13 @@ schema:
   datePublished: "2026-04-22"
   dateModified: "2026-04-22"
 ---
-# Rumbho: seu o micro gis que roda no seu navegador!
+## Introdução
 
 Para quem trabalha com análise espacial, o cenário é comum: você só precisa validar uma geometria rápido, converter um Shapefile para GeoJSON ou ajustar alguns atributos (properties) em uma camada vetorial, mas acaba perdendo 15 minutos esperando um software de desktop pesado carregar ou configurando um banco de dados espacial complexo.
 
 É para resolver esse overhead que nasce o Rumbho.
 
-# O que é o Rumbho?
+## O que é o Rumbho?
 
 O Rumbho não tenta substituir o QGIS ou o ArcGIS. Ele é um Micro-GIS focado em Zero-Config e Instant-Load. Ele vive no seu navegador, aproveitando a aceleração de hardware via GPU (WebGL/MapLibre GL JS) para entregar uma experiência fluida, mesmo lidando com milhares de coordenadas e topologias complexas.
 
@@ -93,7 +92,7 @@ Destaques para Profissionais de Geotecnologia:
 Por que "Micro"?
 Porque acreditamos que a complexidade é o inimigo da produtividade. O Rumbho é construído sobre uma stack moderna — React, Zustand e Tanstack Query — garantindo que o estado da sua aplicação seja previsível e extremamente rápido. É uma ferramenta pensada para o desenvolvedor que consome dados espaciais e para o analista que precisa de respostas rápidas.
 
-# O que vem por aí?
+## O que vem por aí?
 
 Estou na versão beta. Estou trabalhando no suporte nativo a GeoPackage, importação de CSV com mapeamento de colunas lat/long e ferramentas para exportação de camadas.
 

@@ -1,4 +1,75 @@
 # Rumbho: seu o micro gis que roda no seu navegador!
+---
+title: Rumbho: seu o micro gis que roda no seu navegador!
+date: 2026-04-22
+description: "Descubra o Rumbho, um Micro-GIS inovador que roda diretamente no seu navegador. Focado em Zero-Config e Instant-Load, ele oferece edição GeoJSON em tempo real, gestão de camadas, geoprocessamento com Turf.js e geocoding integrado, ideal para profissionais de geotecnologia que buscam agilidade e eficiência."
+post_excerpt: "Descubra o Rumbho, um Micro-GIS inovador que roda diretamente no seu navegador. Focado em Zero-Config e Instant-Load, ele oferece edição GeoJSON em tempo real, gestão de camadas, geoprocessamento com Turf.js e geocoding integrado, ideal para profissionais de geotecnologia que buscam agilidade e eficiência."
+tags:
+- gis
+- micro-gis
+- geoprocessamento
+- webgl
+- geojson
+- maplibre
+- turfjs
+- react
+- desenvolvimento web
+type: post
+meta:
+  site:
+    name: Site
+    title:
+    description: Site description
+    url: https://cleitonluizdev.com.br
+    logo:
+      src: https://cleitonluizdev.com.br/images/logo.png
+      width: 1200
+      height: 630
+    language: pt-BR
+  url: https://cleitonluizdev.com.br/posts/2026/04/micro-gis-rumbho/
+  title: "Rumbho: seu o micro gis que roda no seu navegador!"
+  description: "Descubra o Rumbho, um Micro-GIS inovador que roda diretamente no seu navegador. Focado em Zero-Config e Instant-Load, ele oferece edição GeoJSON em tempo real, gestão de camadas, geoprocessamento com Turf.js e geocoding integrado, ideal para profissionais de geotecnologia que buscam agilidade e eficiência."
+  image:
+    src: https://cleitonluizdev.com.br/images/page.png
+  author:
+    url: https://cleitonluizdev.com.br/sobre/
+    name: Cleiton Teodoro
+  published: 2026-04-22T18:18:56.000Z
+  modified: 2026-04-22T18:18:56.000Z
+  section: Blog
+  tags:
+    - gis
+    - micro-gis
+    - geoprocessamento
+    - webgl
+    - geojson
+    - maplibre
+    - turfjs
+    - react
+    - desenvolvimento web
+schema:
+  '@context': https://schema.org
+  '@type': BlogPosting
+  mainEntityOfPage:
+    '@type': WebPage
+    '@id': "https://cleitonluizdev.com.br/posts/2026/04/micro-gis-rumbho/"
+  headline: "Rumbho: seu o micro gis que roda no seu navegador!"
+  description: "Descubra o Rumbho, um Micro-GIS inovador que roda diretamente no seu navegador. Focado em Zero-Config e Instant-Load, ele oferece edição GeoJSON em tempo real, gestão de camadas, geoprocessamento com Turf.js e geocoding integrado, ideal para profissionais de geotecnologia que buscam agilidade e eficiência."
+  image: "https://cleitonluizdev.com.br/images/page.png"
+  author:
+    '@type': Person
+    name: "Cleiton Teodoro"
+    url: "https://cleitonluizdev.com.br/sobre/"
+  publisher:
+    '@type': Organization
+    name: "Site"
+    logo:
+      '@type': ImageObject
+      url: "https://cleitonluizdev.com.br/images/logo.png"
+  datePublished: "2026-04-22"
+  dateModified: "2026-04-22"
+---
+# Rumbho: seu o micro gis que roda no seu navegador!
 
 Para quem trabalha com análise espacial, o cenário é comum: você só precisa validar uma geometria rápido, converter um Shapefile para GeoJSON ou ajustar alguns atributos (properties) em uma camada vetorial, mas acaba perdendo 15 minutos esperando um software de desktop pesado carregar ou configurando um banco de dados espacial complexo.
 

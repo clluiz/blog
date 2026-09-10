@@ -2,22 +2,56 @@
   {
     "title": "Piti.co",
     "description": "Encurtador de url. Sempre tive curiosidade sobre como encurtadores são feitos então resolvi criar o meu. Pretendo estdar formas de escalar esse projeto para mais de 1 milhão de requisições diárias",
-    "tech_stack": ["Fastify", "Postgresql", "Redis", "Knex"],
+    "tech_stack": [
+      "Fastify",
+      "Postgresql",
+      "Redis",
+      "Knex"
+    ],
     "github_url": "https://github.com/clluiz/pitico",
     "url": "https://github.com/clluiz/pitico"
   },
   {
     "title": "Vero analytics",
     "description": "Eu criei esse projeto por que acho muito difícil usar o Google Analytics. Quero um web analytics fácil de usar",
-    "tech_stack": ["TypeScript", "Fastify", "Prisma", "Postgres", "Docker", "React"],
+    "tech_stack": [
+      "TypeScript",
+      "Fastify",
+      "Prisma",
+      "Postgres",
+      "Docker",
+      "React"
+    ],
     "github_url": "https://github.com/clluiz/vero-analytics-api",
     "url": "https://github.com/clluiz/vero-analytics-api"
   },
   {
     "title": "Rumbho",
     "description": "A maneira mais rápida de transformar dados geográficos em APIs e Mapas Interativos no seu navegador. O GeoStack é um ecossistema Cloud GIS leve projetado para desenvolvedores, analistas de dados e gestores de logística que precisam de agilidade sem a complexidade de softwares pesados ou a insegurança de ferramentas voláteis.",
-    "tech_stack": ["TypeScript", "Fastify", "Drizzle", "Postgres/Postgis", "Docker", "React", "Tanstack"],
+    "tech_stack": [
+      "TypeScript",
+      "Fastify",
+      "Drizzle",
+      "Postgres/Postgis",
+      "Docker",
+      "React",
+      "Tanstack"
+    ],
     "github_url": "https://github.com/clluiz/geo-stack",
     "url": "https://rumbho.com"
+  },
+  {
+    "title": "LoteIQ",
+    "description": "Plataforma especializada em loteamentos, com cursos, treinamentos e serviços de pré-diagnóstico para apoiar empreendedores e profissionais na análise e desenvolvimento de novos empreendimentos.",
+    "tech_stack": [
+      "typescript",
+      "react",
+      "tailwindcss",
+      "tanstack",
+      "postgres",
+      "fastify",
+      "eleventy"
+    ],
+    "url": "https://loteiq.com"
   }
 ]
